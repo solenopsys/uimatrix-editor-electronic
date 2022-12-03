@@ -1,4 +1,5 @@
 {
+  "name": "electronic",
   "projectType": "library",
   "sourceRoot": "libs/fui/electronic/src",
   "prefix": "hyperconverged",
