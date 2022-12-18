@@ -6,7 +6,9 @@
   "targets": {
     "test": {
       "executor": "@nrwl/jest:jest",
-      "outputs": ["coverage/libs/fui/electronic"],
+      "outputs": [
+        "coverage/libs/fui/electronic"
+      ],
       "options": {
         "jestConfig": "libs/fui/electronic/jest.config.js",
         "passWithNoTests": true
@@ -20,7 +22,9 @@
           "libs/fui/electronic/src/**/*.html"
         ]
       },
-      "outputs": ["{options.outputFile}"]
+      "outputs": [
+        "{options.outputFile}"
+      ]
     }
   },
   "tags": []
