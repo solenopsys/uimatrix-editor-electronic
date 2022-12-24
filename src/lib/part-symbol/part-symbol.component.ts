@@ -1,8 +1,8 @@
 import {AfterViewInit, Component, ElementRef, Input, OnInit, ViewChild} from '@angular/core';
-import {drawElem} from '../shematic.draw';
+import {drawElem} from '../draw/shematic.draw';
 
 @Component({
-    selector: 'fui-part-symbol',
+    selector: 'ui-part-symbol',
     templateUrl: './part-symbol.component.html',
     styleUrls: ['./part-symbol.component.css']
 })

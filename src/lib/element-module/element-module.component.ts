@@ -1,8 +1,8 @@
 import {AfterViewInit, Component, ElementRef, Input, OnInit, ViewChild} from '@angular/core';
-import {drawElem, drawWire, SchemeConf} from '../shematic.draw';
+import {drawElem, drawWire, SchemeConf} from '../draw/shematic.draw';
 
 @Component({
-  selector: 'fui-element-module',
+  selector: 'ui-element-module',
   templateUrl: './element-module.component.html',
   styleUrls: ['./element-module.component.css']
 })

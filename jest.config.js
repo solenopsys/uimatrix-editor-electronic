@@ -1,5 +1,5 @@
 module.exports = {
-  displayName: 'fui-electronic',
+  displayName: 'ui-electronic',
   preset: '../../../jest.preset.js',
   setupFilesAfterEnv: ['<rootDir>/src/test-setup.ts'],
   globals: {
@@ -8,7 +8,7 @@ module.exports = {
       stringifyContentPathRegex: '\\.(html|svg)$',
     },
   },
-  coverageDirectory: '../../../coverage/libs/fui/electronic',
+  coverageDirectory: '../../../coverage/libs/uimatrix/electronic',
   transform: {
     '^.+.(ts|mjs|js|html)$': 'jest-preset-angular',
   },

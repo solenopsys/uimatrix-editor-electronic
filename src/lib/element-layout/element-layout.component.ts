@@ -1,10 +1,10 @@
 import {Component, ElementRef, Input, OnInit, ViewChild} from '@angular/core';
 
-import {drawLayout, drawRect} from '../drawingFunction';
-import { SAMSUNG_SCALE } from "../fui-electronic.module";
+import {drawLayout, drawRect} from '../draw/drawingFunction';
+import { SAMSUNG_SCALE } from "../ui-electronic.module";
 
 @Component({
-  selector: 'fui-element-layout',
+  selector: 'ui-element-layout',
   templateUrl: './element-layout.component.html',
   styleUrls: ['./element-layout.component.css']
 })

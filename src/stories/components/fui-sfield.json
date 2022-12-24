@@ -1,0 +1,9 @@
+{
+  "name": "Electronic Editor",
+  "description": "Electronic Edit",
+  "component": "EditorElectronic",
+  "package": "@solenopsys/uimatrix-editor-electronic",
+  "io": {
+
+  }
+}

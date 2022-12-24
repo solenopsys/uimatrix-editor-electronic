@@ -1,16 +1,16 @@
 {
   "name": "electronic",
   "projectType": "library",
-  "sourceRoot": "libs/fui/electronic/src",
-  "prefix": "sc",
+  "sourceRoot": "libs/uimatrix/editors/electronic/src",
+  "prefix": "ui",
   "targets": {
     "test": {
       "executor": "@nrwl/jest:jest",
       "outputs": [
-        "coverage/libs/fui/electronic"
+        "coverage/libs/uimatrix/editors/electronic"
       ],
       "options": {
-        "jestConfig": "libs/fui/electronic/jest.config.js",
+        "jestConfig": "libs/uimatrix/editors/electronic/jest.config.js",
         "passWithNoTests": true
       }
     },
@@ -18,8 +18,8 @@
       "executor": "@nrwl/linter:eslint",
       "options": {
         "lintFilePatterns": [
-          "libs/fui/electronic/src/**/*.ts",
-          "libs/fui/electronic/src/**/*.html"
+          "libs/uimatrix/editors/electronic/src/**/*.ts",
+          "libs/uimatrix/editors/electronic/src/**/*.html"
         ]
       },
       "outputs": [
